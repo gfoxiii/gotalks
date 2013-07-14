@@ -2,16 +2,16 @@
 
 <html>
   <head>
-    <title>{{.title}}</title>
+    <title>[[.title]]</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="/static/images/favicon.png">
     <script src="/static/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
-    {{range .moreStyles}}
+    [[range .moreStyles]]
       <link rel="stylesheet" type="text/css" href="/static/{{.}}">
-    {{end}}
-    {{range .moreScripts}}
+    [[end]]
+    [[range .moreScripts]]
       <script src="/static/{{.}}" type="text/javascript" charset="utf-8"></script>
-    {{end}}
+    [[end]]
   </head>
-  <body>
+  <body  ng-app>
