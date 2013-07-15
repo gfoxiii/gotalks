@@ -11,6 +11,11 @@ func (c App) Home() revel.Result {
 	return c.Render()
 }
 
+// Method Talks servers Talks page of Go Talks.
+func (c App) Talks() revel.Result {
+	return c.Todo()
+}
+
 // Method Index servers index page of Go Talks.
 func (c App) Index() revel.Result {
 	return c.Todo()

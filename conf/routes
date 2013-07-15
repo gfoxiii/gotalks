@@ -5,6 +5,7 @@
 module:testrunner
 
 GET     /                                       App.Home
+GET     /talks									App.Talks
 GET     /index									App.Index
 GET     /users									App.Users
 GET     /edit									App.Editor

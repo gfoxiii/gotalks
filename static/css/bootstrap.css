@@ -549,6 +549,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
+  width: 1150px;
 }
 
 .container:before,
@@ -5782,4 +5783,13 @@ a.badge:hover {
 body {
     background: url("/static/img/noise_lines.png") repeat scroll 0% 0% transparent;
     padding-top: 60px;
+}
+
+.description {
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
 }
