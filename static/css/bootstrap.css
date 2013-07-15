@@ -4151,7 +4151,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inner {
-  min-height: 40px;
+  min-height: 30px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #fafafa;
@@ -4345,7 +4345,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 1170px;
 }
 
 .navbar-fixed-top {
@@ -5771,4 +5771,15 @@ a.badge:hover {
 
 .affix {
   position: fixed;
+}
+
+/* Customize style*/
+.version {
+  font-size: 50%;
+  color: rgb(204, 204, 204);
+}
+
+body {
+    background: url("/static/img/noise_lines.png") repeat scroll 0% 0% transparent;
+    padding-top: 60px;
 }
