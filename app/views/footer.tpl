@@ -15,7 +15,7 @@
 					</p>
 
 					<p>
-						Send us <a href="mailto:joe2010xtmf#163.com"><i class="icon-envelope"></i> Feedback</a> or submit <a target="_blank" href="https://github.com/Unknwon/gowalker/issues"><i class="icon-tasks"></i> Website Issues</a>. 
+						Send us <a href="mailto:joe2010xtmf#163.com"><i class="icon-envelope"></i> Feedback</a> or submit <a target="_blank" href="https://github.com/Unknwon/gotalks/issues"><i class="icon-tasks"></i> Website Issues</a>. 
 					</p>
 
 					<strong>Language:</strong>
@@ -27,7 +27,7 @@
 					</div>
 					<div style="text-align: center;margin-top: 15px;">
 						<img src="/static/img/Golang.png">
-						<img src="/static/img/gotalks.png" style="height: 58px;">
+						<img src="/static/img/angularjs.png" style="height: 58px;">
 						<img src="/static/img/linode.png">
 					</div>
 				</div>
